@@ -84,7 +84,7 @@ def main():
                 print(ee, file=sys.stderr)
                 errors.append(ee)
 
-        print ('Successfully downloaded {} zonefiles, {} erorrs'.format(success, len(errors)))
+        print('Successfully downloaded {} zonefiles, {} erorrs'.format(success, len(errors)))
 
     return
 
